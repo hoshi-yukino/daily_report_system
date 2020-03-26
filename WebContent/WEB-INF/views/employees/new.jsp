@@ -5,7 +5,7 @@
     <c:param name="content">
         <h2></h2>
 
-        <form method="POST" action = "<c:url value='employees/create' />">
+        <form method="POST" action = "<c:url value='/employees/create' />">
         <c:import url="_form.jsp" />
         </form>
 
